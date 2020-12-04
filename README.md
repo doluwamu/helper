@@ -34,7 +34,7 @@ The result when you pass the sentence through the BreakWordFragment will be ("I 
 While the result when you pass the sentence through the BreakWordFragment will be ("I love building...")
 
 Note1: When using the functions, you need to pass in two parameters
-which are(word, limit{which should be a nubmer, and is optional as there is a default limit})
+which are(word, limit{which must be a nubmer, and is optional as there is a default limit})
 
 Note2: The default 17
 

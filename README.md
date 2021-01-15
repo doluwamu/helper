@@ -18,6 +18,8 @@ NumFormat(1000); // Number provided into the function must be greater or equal t
 
 Result: `1,000`
 
+#
+
 # Word Limits
 
 The BreakWordFragment and BreakWordFull fragment helps to reduce the number of word you want to display
@@ -42,22 +44,39 @@ Note2: The default 17
 
 ## NumberFormat
 
-### Name of the first function is BreakWordFragment
-
-## Usage
-
 ```javascript
-BreakWordFragment('I love building with my friends)
+BreakWordFragment("I love building with my friends");
 ```
 
 Result: I love building w...
 
-### Name of the second function is BreakWordFragment
-
-## Usage
+#
 
 ```javascript
-BreakWordFull('I love building with my friends)
+BreakWordFull("I love building with my friends");
 ```
 
 Result: I love building...
+
+#
+
+# Capitalize
+
+firstLetterCapitalize helps to capitalize the first letter of any word or sentence while,
+capitalize helps to capitalize the first letter of every given word in a sentence
+
+# Demo
+
+```javascript
+firstLetterCapitalize("i love milk");
+```
+
+Result: I love milk
+
+#
+
+```javascript
+capitalize("i love milk");
+```
+
+Result: I Love Milk
